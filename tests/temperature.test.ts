@@ -3,13 +3,10 @@ import { celsiusToFahrenheit } from '../src/temperature';
 
 describe('celsiusToFahrenheit', () => {
   it('перетворює нуль градусів на 32', () => {
-    // Arrange
     const celsius = 0;
 
-    // Act
     const result = celsiusToFahrenheit(celsius);
 
-    // Assert
     expect(result).toBe(32);
   });
 
